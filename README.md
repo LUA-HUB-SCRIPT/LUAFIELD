@@ -20,7 +20,7 @@
 Untuk memanggil library **LUAFIELD** di dalam script kamu, gunakan fungsi `loadstring` berikut:
 
 ```lua
-local LUAFIELD = loadstring(game:HttpGet("[https://raw.githubusercontent.com/USERNAME_KAMU/LUAFIELD/main/init.lua](https://raw.githubusercontent.com/USERNAME_KAMU/LUAFIELD/main/init.lua)"))()
+local LUAFIELD = loadstring(game:HttpGet("[https://raw.githubusercontent.com/USERNAME_KAMU/LUAFIELD/main/init.lua](https://raw.githubusercontent.com/USERNAME_KAMU/LUAFIELD/main/LUAFIELD.lua)"))()
 
 -- Inisialisasi Window
 local Window = LUAFIELD:Init({
